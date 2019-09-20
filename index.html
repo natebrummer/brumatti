@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+   
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500i&display=swap" rel="stylesheet">
+    <title>Brumatti</title>
+</head>
+<body>
+
+<div class="tutorial">
+    <main class="page">
+        <div class="page__inner">
+            
+            <!-- The cursor elements --> 
+        <div class="cursor cursor--small"></div>
+            <canvas class="cursor cursor--canvas" resize></canvas>
+            
+          </div>
+        </main>
+</div>
+
+
+<h1>New Releases</h1>
+
+
+
+<div class="slideshow-container">
+    <div class="mySlides"><a href="https://brumatti.bandcamp.com/track/la-houston">
+        <img src="brumatti_art.jpg" height="240px" width="240px">
+        <div class="text">la, houston</a>
+        </div>
+    </div>
+
+    <div class="mySlides"><a href="https://brumatti.bandcamp.com/album/sunlight-magnolia">
+        <img src="Sunlight.jpg" height="240px" width="240px">
+        <div class="text">Sunlight / Magnolia</a></div>
+  </div>
+
+  <div class="mySlides"><a href="https://brumatti.bandcamp.com/album/24-flowers">
+      <img src="Flowers.jpg" height="240px" width="240px">
+      <div class="text">24 Flowers</a>
+    </div>
+  </div> 
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<div class="copyright">
+    <marquee behavior="scroll" direction="up">
+    twfs.studio &copy;</marquee>
+</div>
+
+<h1 class="out">
+    <span class="word">Out</span>
+    <span class="word">now</span>
+</h1>
+
+<button class="contact">
+    <a href="mailto:natebrummer31@gmail.com">Contact
+</a>
+</button>
+
+<button class="contact2">
+    <a href="https://brumatti.bandcamp.com/track/la-houston">Listen</a>
+</button>
+
+
+
+<footer>
+    2019 ___ Brumatti
+</footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+
+
+<script src="index.js">
+</script>
+
+</html>
